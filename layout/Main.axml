@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameLinearLayoutId" />
+    <TextView
+        android:text="00' : 00&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/timerTextViewId"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="#ffff6e40"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:text="Reset 4 X 4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/resetFourButtonId"
+        android:background="#ff7c4dff"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:text="Reset 6 X 6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/resetSixButtonId"
+        android:background="#ffff4081"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
